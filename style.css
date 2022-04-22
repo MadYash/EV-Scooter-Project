@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img {
+  width: 100%;
+}
+#logo {
+  margin: 5px;
+  width: 10vw;
+  height: 10vh;
+  filter: invert(1);
+  /* align-items: baseline; */
+  /* height: 100%; */
+}
+h4 {
+  text-align: center;
+  /* padding-bottom: 5px; */
+  height: auto;
+  color: rgb(235, 95, 95);
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  background-color: black;
+  /* border: 2px solid black; */
+  /* margin: 2px; */
+  display: inline-block;
+  width: 100%;
+}
+.left {
+  float: left;
+  /* border: 2px solid red; */
+  margin: 20px;
+  width: 15%;
+}
+.right {
+  margin: 5px;
+  /* border: 2px solid green; */
+  float: right;
+  display: inline;
+  text-align: right;
+  width: 13%;
+}
+.mid {
+  text-align: center;
+  margin: 5px;
+  /* border: 2px solid blue; */
+  float: left;
+  width: 55%;
+  display: inline;
+  position: fixed;
+}
+.navbar li {
+  list-style: none;
+  float: left;
+}
+li a {
+  color: lightsalmon;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: aliceblue;
+  border-radius: 13px;
+}
+a:checked {
+  color: blue;
+}
+.btn {
+  background-color: rgba(250, 232, 232, 0.975);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: -webkit-fill-available;
+}
+#section::before{
+    background: url('static/bg.jpg') center/cover no-repeat; 
+    position: absolute;
+    z-index: -1;
+    content: '';
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+#section{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#features h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    display: flex;
+}
+.card img{
+    width: 50%;
+    height: 90%;
+    margin-top: 12px;
+}
+.card img:hover{
+    transform:scale(0.9);
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  /* height: 12vh; */
+}
+.tnc{
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.copyright{
+  display: flex;
+  margin: auto;
+}
